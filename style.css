@@ -1,0 +1,93 @@
+/* ! -------------- Basic Setup -------------- */
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: 400;
+  color: #232323;
+  font-family: sans-serif;
+  /* background-color: #d0ebff; */
+  /* background-color: #a5d8ff; */
+  background-color: #f1f3f5;
+}
+
+/* ! -------------- container/grid level -------------- */
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 90rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  background-color: #d0ebff;
+  height: 70rem;
+  margin-top: 12rem;
+  border-radius: 11px;
+  box-shadow: 0 2.2rem 4.4rem, rgba(0, 0, 0, 0.3);
+}
+
+/* ! -------------- Heading -------------- */
+.heading-primary {
+  margin-top: 2.2rem;
+  font-size: 4.4rem;
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+.calc-second--part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-box {
+  width: 50rem;
+}
+.input {
+  width: 100%;
+  height: 13rem;
+  border: none;
+  font-size: 3.2rem;
+  outline: none;
+  padding: 2.2rem;
+  margin-bottom: 3.2rem;
+}
+.button-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3.2rem;
+  column-gap: 4.6rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+.btn {
+  border: none;
+  width: 6.5rem;
+  height: 6.5rem;
+  background-color: #212529;
+  color: #fff;
+  font-size: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 50%; */
+  border-radius: 11px;
+  box-shadow: 0 2.2rem 3.2rem 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #343a40;
+}
