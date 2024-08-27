@@ -21,7 +21,7 @@ A basic calculator web application built using HTML, CSS, and JavaScript. This p
 ### Clone the Repository:
 ```bash
 git clone https://github.com/shahadat13593/Basic-Calculator-HTML-CSS-JavaScript-.git
-
+```
 ### Open the Project:
 Navigate to the project directory.
 Open the index.html file in your browser.
