@@ -18,24 +18,28 @@ A basic calculator web application built using HTML, CSS, and JavaScript. This p
 
 ## Getting Started
 
-1. **Clone the Repository**:
-   ```bash
-   [git clone https://github.com/yourusername/simple-calculator.git](https://github.com/shahadat13593/Basic-Calculator-HTML-CSS-JavaScript-.git)
-Open the Project:
+### Clone the Repository:
+```bash
+git clone https://github.com/shahadat13593/Basic-Calculator-HTML-CSS-JavaScript-.git
 
-Navigate to the project directory and open the index.html file in your browser.
-Customize:
+### Open the Project:
+Navigate to the project directory.
+Open the index.html file in your browser.
 
+### Customize:
 Feel free to customize the styles in style.css or modify the logic in script.js to add more features.
-How to Use
+
+### How to Use
 Input Numbers: Click on the number buttons to input numbers.
 Operators: Click on the operator buttons (+, -, *, /) to perform calculations.
 Equals: Click the equals button (=) to get the result.
 Clear: Click the clear button (C) to reset the calculator.
 Delete: Click the delete button (x) to remove the last character.
-Project Structure
+
+### Project Structure
 index.html: The main HTML file.
 style.css: The CSS file for styling the calculator.
 script.js: The JavaScript file for calculator logic.
-Contributing
+
+### Contributing
 Contributions are welcome! If you'd like to improve the project, feel free to fork the repository and submit a pull request.
